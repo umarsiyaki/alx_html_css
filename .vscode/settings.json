@@ -1,0 +1,7 @@
+{
+    "editor.inlayHints.fontSize": 10,
+    "editor.letterSpacing": 2,
+    "editor.linkedEditing": true,
+    "editor.mouseWheelZoom": true,
+    "editor.pasteAs.showPasteSelector": "afterPaste"
+}
