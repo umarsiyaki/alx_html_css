@@ -191,7 +191,9 @@ Remove the float: left inside [class*='col-']
   
   /* Grid
       ============================= */
-  
+  .row{
+      display: flex;
+  }
   ul.row {
     margin: 0;
     padding: 0;
