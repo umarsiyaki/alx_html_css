@@ -192,14 +192,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
         list-style: none;
     }
     
-    .row::after {
-        content: '';
-        display: table;
-        clear: both;
-    }
-    
     [class*='col-'] {
-        float: left;
         padding: 0.5rem;
     }
     
