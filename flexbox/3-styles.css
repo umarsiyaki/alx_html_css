@@ -372,15 +372,17 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     padding: 10rem 40rem 2rem 0;
   }
   
-  /* Section Latest news ============================= */
-  
-  .section-latest-news .row {
-    flex-direction: row-reverse;
-}
 
 
   
   /*** 4. CARD ***/
+  
+ 
+  /* Section Latest news ============================= */
+  
+  .section-latest-news .row {
+    flex-direction: row-reverse;
+} 
   
   /* Card (all styles)
       ============================= */
