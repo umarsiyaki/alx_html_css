@@ -373,7 +373,11 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
   }
   
 
+/* Section SERVICES ============================= */
 
+.section-services .row {
+    flex-wrap: wrap;
+}
   
   /*** 4. CARD ***/
   
