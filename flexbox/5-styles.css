@@ -63,11 +63,6 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
   
     /** HEADER **/
     --header-padding: 4rem 0 0;
-    --header-logo-position: relative;
-    --header-logo-link-display: inline-block;
-    --header-logo-link-position: absolute;
-    --header-logo-link-top: -1rem;
-    --header-logo-link-left: 0;
   
     /** FOOTER **/
     --footer-padding: 5rem 0 1rem;
@@ -187,25 +182,29 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     }
     
     ul.row {
-        margin: -1re;
+        margin: 0;
         padding: 0;
         list-style: none;
     }
     
     [class*='col-'] {
-        margin: 1rem;
+        padding: 0.5rem;
     }
     
     .col-1-3 {
-        width: calc((100% / 3) - 2rem);
+        width: 33.33%;
     }
     
     .col-1-2 {
-        width: calc((100% / 2) - 2rem);
+        width: 50%;
     }
     
       /* Navbar
           ============================= */
+    
+      .navbar-menu {
+          float: right;
+      }
     
       .nav {
           margin: 0;
@@ -253,7 +252,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
       /* Header
           ============================= */
     
-    .header-container{
+    .header-container {
         display: flex;
         justify-content: space-between;
     }
@@ -264,7 +263,16 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
           background: transparent;
       }
     
-
+      .header-logo {
+          position: var(--header-logo-position);
+      }
+    
+      .header-logo a {
+          display: var(--header-logo-link-display);
+          position: var(--header-logo-link-position);
+          top: var(--header-logo-link-top);
+          left: var(--header-logo-link-left);
+      }
     
 /* Footer
       ============================= */
@@ -364,7 +372,11 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
   }
   
 
+/* Section SERVICES ============================= */
 
+.section-services .row {
+    flex-wrap: wrap;
+}
   
   /*** 4. CARD ***/
   

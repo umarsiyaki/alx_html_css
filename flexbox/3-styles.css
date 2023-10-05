@@ -63,8 +63,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
   
     /** HEADER **/
     --header-padding: 4rem 0 0;
-    --header-logo-position: relative;
-    --header-logo-link-display: inline-block;
+    --header-logo-link-display: inlin
     --header-logo-link-position: absolute;
     --header-logo-link-top: -1rem;
     --header-logo-link-left: 0;
@@ -257,6 +256,10 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
       /* Header
           ============================= */
     
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+    }
       .header {
           padding: var(--header-padding);
           position: relative;
