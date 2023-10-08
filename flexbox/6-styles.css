@@ -220,10 +220,9 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
         font-weight: var(--nav-item-font-weight);
         font-size: var(--nav-item-font-size);
         letter-spacing: var(--nav-item-letter-spacing);
-        /* Remove display declaration */
     }
     
-    /* Target .nav-item + .nav-item inside nav class */
+    
     .nav .nav-item+.nav-item {
         margin: 0 0 0 2rem;
         /* Move the margin declaration here */
